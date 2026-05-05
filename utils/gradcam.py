@@ -21,6 +21,7 @@ def make_gradcam_heatmap(img_array, model, last_conv_layer_name, pred_index=None
     # Compute the gradient of the top predicted class for our input image
     with tf.GradientTape() as tape:
         last_conv_layer_output, preds = grad_model(img_array)
+        tape.watch(last_conv_layer_output)
         
         # Handle cases where preds might be wrapped in a list (e.g., if model output is a list)
         if isinstance(preds, list):

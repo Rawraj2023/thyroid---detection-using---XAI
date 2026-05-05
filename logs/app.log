@@ -17,3 +17,35 @@
 11:41:52 - INFO - streamlit_app - Image uploaded in Streamlit: 1 cancer.jpg
 11:41:52 - INFO - processing - Preprocessing image of size: (480, 352) and mode: L
 11:41:56 - INFO - report_generator - Generating enhanced medical report for: Malignant (Cancerous)
+11:51:41 - INFO - streamlit_app - Image uploaded in Streamlit: 0-class1.jpg
+11:51:41 - INFO - processing - Preprocessing image of size: (288, 314) and mode: L
+11:51:45 - INFO - report_generator - Generating enhanced medical report for: Benign (Non-Cancerous)
+11:52:03 - INFO - streamlit_app - Image uploaded in Streamlit: 0-class2.jpg
+11:52:04 - INFO - processing - Preprocessing image of size: (622, 522) and mode: L
+11:52:08 - INFO - report_generator - Generating enhanced medical report for: Benign (Non-Cancerous)
+11:52:17 - INFO - streamlit_app - Image uploaded in Streamlit: 1-class1.jpg
+11:52:17 - INFO - processing - Preprocessing image of size: (982, 643) and mode: L
+11:52:21 - INFO - report_generator - Generating enhanced medical report for: Malignant (Cancerous)
+11:55:23 - INFO - streamlit_app - Image uploaded in Streamlit: 1-class2.jpg
+11:55:23 - INFO - processing - Preprocessing image of size: (419, 387) and mode: L
+11:55:27 - INFO - report_generator - Generating enhanced medical report for: Malignant (Cancerous)
+12:14:59 - INFO - app - Starting Thyroid Cancer Detection API...
+12:15:10 - INFO - routes - Loading model from Hugging Face...
+12:15:17 - INFO - routes - Model loaded successfully
+12:17:43 - INFO - app - Starting Thyroid Cancer Detection API...
+12:17:54 - INFO - routes - Loading model from Hugging Face...
+12:18:00 - INFO - routes - Model loaded successfully
+13:10:10 - INFO - streamlit_app - Image uploaded in Streamlit: 1-class2.jpg
+13:10:10 - INFO - processing - Preprocessing image of size: (419, 387) and mode: L
+13:10:17 - INFO - report_generator - Generating enhanced medical report for: Malignant (Cancerous)
+13:10:39 - INFO - streamlit_app - Image uploaded in Streamlit: 1-class2.jpg
+13:10:39 - INFO - processing - Preprocessing image of size: (419, 387) and mode: L
+13:10:48 - INFO - report_generator - Generating enhanced medical report for: Malignant (Cancerous)
+13:12:12 - INFO - app - Starting Thyroid Cancer Detection API...
+13:12:27 - INFO - routes - Loading model from Hugging Face...
+13:12:36 - INFO - routes - Model loaded successfully
+13:22:17 - INFO - routes - Loading model from Hugging Face...
+13:22:22 - INFO - routes - Model loaded successfully
+13:22:39 - INFO - app - Starting Thyroid Cancer Detection API...
+13:22:51 - INFO - routes - Loading model from Hugging Face...
+13:22:57 - INFO - routes - Model loaded successfully
