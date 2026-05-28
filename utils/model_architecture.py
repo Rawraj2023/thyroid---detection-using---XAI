@@ -56,7 +56,6 @@ class DepthwiseSeparableConv(layers.Layer):
         })
         return config
 
-
 # -------- FibonacciNet (Notebook4e) --------
 def create_fibonacci_net(input_shape=(224, 224, 3), num_classes=1):
     inputs = layers.Input(shape=input_shape)
